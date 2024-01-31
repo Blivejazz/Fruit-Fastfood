@@ -75,7 +75,7 @@ main section article {
 
 .colors article {
     width: 19%;
-    height: 10vh;
+    height: 20vh;
     margin: 0;
     vertical-align: bottom;
     margin-top: 2.5%;
@@ -106,6 +106,6 @@ main section article {
     background-color: hsl(276, 10%, 10%);
 }
 
-#farve3 p,#farve5 p {
+#farve3 p,#farve5 p,#farve3 h3,#farve5 h3 {
     color: white;
 }
