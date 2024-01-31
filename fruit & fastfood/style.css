@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+.body {
+    background-color: hsl(20, 22%, 92%);
+    color: hsl(188, 28%, 53%);
+    font-family: 'Handlee', cursive;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    color: hsl(167, 100%, 19%);
+}
+
+p {
+    color: hsl(276, 10%, 10%);
+}
+
+.menulinje a {
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(20, 22%, 92%);
+    margin: auto;
+    width: 10%;
+}
+
+header,footer{
+    background-color: hsl(188, 28%, 53%);
+    padding-left: 10%;
+    color: hsl(20, 22%, 92%);
+}
+
+footer {
+    padding: 2vh;
+    text-align: center;
+}
+
+header img {
+    height: 10vh;
+}
+
+.menulinje a:hover{
+    color: hsl(49, 98%, 50%);
+}
+
+#bestil {
+    background-color: hsl(49, 98%, 50%);
+    color: hsl(276, 10%, 10%);
+    padding: 10px;
+    text-decoration: none;
+    font-size: xx-large;
+    padding: 1%;
+    top: 40vh;
+    position: relative;
+}
+
+#button-container {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    background-image: url('./img/fffbackgorund.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 3vh;
+}
+
+main section article {
+    display: inline-block;
+    width: 46%;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: hsl(20, 22%, 90%);
+    height: 100%;
+    margin: 1%;
+}
+
+.colors article {
+    width: 19%;
+    height: 10vh;
+    margin: 0;
+    vertical-align: bottom;
+    margin-top: 2.5%;
+    text-align: center;
+}
+
+.colors article p {
+    margin: 0;
+}
+
+#farve1 {
+    background-color: hsl(20, 22%, 92%);
+}
+
+#farve2 {
+    background-color: hsl(188, 28%, 53%);
+}
+
+#farve3 {
+    background-color: hsl(167, 100%, 19%);
+}
+
+#farve4 {
+    background-color: hsl(49, 98%, 61%);
+}
+
+#farve5 {
+    background-color: hsl(276, 10%, 10%);
+}
+
+#farve3 p,#farve5 p {
+    color: white;
+}
